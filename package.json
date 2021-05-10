@@ -1,0 +1,11 @@
+{
+  "name": "husky-custom-hooks",
+  "version": "1.0.0",
+  "description": "Test repo to illustrate Husky-related question",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wes Vetter <wesvetter@gmail.com> (https://wesvetter.com/)",
+  "license": "MIT"
+}
