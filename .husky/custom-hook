@@ -1,0 +1,10 @@
+#!/bin/sh
+# Execute hook if it exists in .husky/custom/
+result=0
+FILE=".husky/custom/$1"
+if [ -f "$FILE" ]; then
+    echo "Running custom hook for $1..."
+    $FILE
+    result=$?
+fi
+exit $result

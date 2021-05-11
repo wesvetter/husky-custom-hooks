@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# This file would normally be untracked, tracking here for illustration
+# purposes.
+
+echo "my custom hook!"

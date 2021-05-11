@@ -1,4 +1,4 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo "Lint ALL THE THINGS!!!"
+echo "Lint ALL THE THINGS!!!" && .husky/custom-hook pre-commit
